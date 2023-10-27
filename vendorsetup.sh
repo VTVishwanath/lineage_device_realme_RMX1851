@@ -19,7 +19,7 @@ echo "Cloning Kernel..."
 current_dir=$(pwd)
 if [ -z "$(ls -A $current_dir/kernel/realme/sdm710)" ]; then
     git clone https://github.com/kdrag0n/proton-clang prebuilts/clang/host/linux-x86/proton-clang
-    git clone https://github.com/improbir/kernel_realme_sdm710 -b 13 kernel/realme/sdm710
+    git clone https://github.com/Cykeek/kernel_realme_sdm710 -b A13 kernel/realme/sdm710
 else
     echo "Directory is not empty"
 fi

@@ -7,7 +7,7 @@
 $(call inherit-product, device/realme/RMX1851/device.mk)
 
 # Inherit some common CustomOS stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_RMX1851
