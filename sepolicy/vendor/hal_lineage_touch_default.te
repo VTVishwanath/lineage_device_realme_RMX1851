@@ -1,4 +1,4 @@
-type hal_lineage_touch_default, domain;
+# type hal_lineage_touch_default, domain;
 
 # Allow hal_lineage_touch_default to read and write to proc_touchpanel
 allow hal_lineage_touch_default proc_touchpanel:dir search;

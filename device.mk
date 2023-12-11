@@ -227,7 +227,7 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.9.vendor \
     vendor.display.config@2.0 \
     vendor.qti.hardware.display.allocator@1.0-service \
-    android.hardware.graphics.allocator@3.0-impl \
+    #android.hardware.graphics.allocator@3.0-impl \
     android.hardware.graphics.allocator@4.0-impl
 
 # DRM
